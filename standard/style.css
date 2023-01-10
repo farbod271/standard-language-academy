@@ -1,0 +1,40 @@
+body {
+    background-color: aliceblue;
+    position: relative;
+}
+
+.carousel-item {
+    height: 300px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer {
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  svg {
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    fill: white;
+  }
+
+  .ikon {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
